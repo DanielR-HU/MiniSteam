@@ -1,7 +1,18 @@
 import tkinter as tk
-from tkinter import ttk
-import random
-from paho.mqtt import client as mqtt_client
+import random, os
+
+try:
+    from tkinter import ttk
+except:
+    os.system('pip install ttkthemes')
+    from tkinter import ttk
+
+try:
+    from paho.mqtt import client as mqtt_client
+except:
+    os.system('pip install paho-mqtt==1.6.1')
+    from paho.mqtt import client as mqtt_client
+
 
 # broker
 broker = 'broker.hivemq.com'
