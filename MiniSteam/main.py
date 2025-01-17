@@ -12,8 +12,8 @@ import vga1_8x16 as fontSmall
 
 # Vul hier de ssid en wachtwoord in van je hotspot / wifi netwerk
 # In de NextWiFi functie kan je een 2e netwerk invullen die hij prbeert.
-MainWifiSSID = "WBS-WiFi"
-MainWifiPswrd = "W3b3rBBQF@n"
+MainWifiSSID = ""
+MainWifiPswrd = ""
 
 # Vul hier je eigen steam API key en ID in:
 APIKey = ""
